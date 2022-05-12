@@ -1,0 +1,11 @@
+
+OOP Abstraction:
+Concentrating on essentials (what it is), not worry about the details/implementation(how it is done)
+    Abstract method: A method without the implementation/body
+        meant to be overridden
+
+    area();
+    perimeter();
+    ...
+    eat();
+    ...

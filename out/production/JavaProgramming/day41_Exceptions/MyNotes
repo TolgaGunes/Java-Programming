@@ -1,0 +1,68 @@
+Access Modifiers:
+        public > protected > default > private
+
+Final Keyword: unchangeable
+    Variables: can not be reassigned
+    Methods:   can not be overridden
+    Classes: can not be inherited (can not be parent)
+
+Exceptions Topic:
+    1. Unchecked vs checked
+    2. try & catch blocks
+    3. Multi-catch block
+    4. finally block
+    5. throws keyword
+    6. throw keyword
+
+  ##  checked Exceptions:
+    exceptions that are checked at *compile time*
+    occurs during the *compile time*
+    code will not compile if we do not handle them
+    they do not* have IS A relationship with RuntimeException class
+
+    un-checked Exceptions:
+        exceptions that are checked at runtime
+        occurs during the *runtime
+        code *will compile* even if we do not handle them
+        they do *have IS A relationship with RuntimeException class
+
+OutOfMemoryError: heap memory is full
+
+
+Exceptions: unexpected or unwanted events
+   # unchecked(unexpected event): occurs during the runtime  (Runtime Exception)
+        all the RuntimeExceptions are unchecked exceptions
+*frequently faced unchecked exceptions:
+     - ArithmeticException, - NullPointerException, - ArrayIndexOutBoundsException
+
+
+   # checked(unwanted event): occurs during the compile time
+        all the exceptions that are not RuntimeExceptions are checked exception
+*frequently faced checked exceptions:
+    -IO Exception   - FileNotFoundException
+
+
+Exception handling:
+    try and catch blocks: used for handling checked and unchecked exceptions
+        try{
+            exception code
+        }catch(Exception Class e){
+            e.printStackTrace();
+        }
+
+        Multi-chat block: parent exception type can not be placed before the child exception type.
+
+        finally block:
+            An optional block that can be given after last catch block
+            Always executed after try&catch blocks whether an exception occurs or not
+            *** always get executed regardless of exception is being handled or not handled
+            **to stop execution finally block is to insert System.exit(0) inside the previous catch block
+
+     **Interview Question:
+       final: keyword; unchangeable variable, class and methods
+         vs
+       finally (it is an optional block that can be given after last catch block)
+         vs
+       finalize (method, garbage collector)
+
+

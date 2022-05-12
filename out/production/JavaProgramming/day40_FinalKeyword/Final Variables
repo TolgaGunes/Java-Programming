@@ -1,0 +1,14 @@
+
+
+
+Final Methods
+
+    implementation of the method becomes unchangeable
+    final methods CAN NOT be OVERRIDDEN
+
+Final Class
+
+    A class that can not be extended
+    the class can not be a super(parent)class
+
+

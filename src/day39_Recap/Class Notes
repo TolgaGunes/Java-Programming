@@ -1,0 +1,8 @@
+Method OVerriding: gving different implementations to the method
+    MUST happen in the child class
+    return-type, method name, parameter MUSt be same
+    Access modifier need to be same or more visible
+            public > protected > default
+    Method we can not override: private, static, final
+    ONLY the instance methods ( not final not private) can be overriden
+    @Override annotation must be applicable

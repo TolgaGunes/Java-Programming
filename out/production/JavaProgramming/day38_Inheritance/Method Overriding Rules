@@ -1,0 +1,8 @@
+
+
+1.Must happen in the sub Class
+2.Return type, method name and parameters of the overridden method must be same
+3.Access modifier of the overridden method needs to be same or more visible
+4.we can not override methods with private access modifier, or with static&final specifiers
+5.Only the instance methods ( not private & not final) can be overridden
+
