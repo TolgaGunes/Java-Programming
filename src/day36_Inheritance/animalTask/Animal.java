@@ -8,6 +8,7 @@ public class Animal {
     public String size;
     public String color;
 
+
     public void setInfo(String name, String breed, char gender, int age, String size, String color) {
         this.name = name;
         this.breed = breed;

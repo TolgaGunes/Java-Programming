@@ -2,6 +2,11 @@ package day36_Inheritance.animalTask;
 
 public class Cat extends Animal{
 
+    @Override
+    public void drink() {
+        super.drink();
+    }
+
     public void meow(){
         System.out.println(name + "is meowing");
     }
